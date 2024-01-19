@@ -18,7 +18,7 @@ fetch(myUrl, {
 
       let col = document.createElement("div");
 
-      col.classList.add("col-md-4");
+      col.classList.add("col-md-4", "mt-4");
       col.innerHTML = `<div class="card mb-4 shadow-sm h-100">
           <img
             src=${data.imageUrl}
@@ -41,16 +41,10 @@ fetch(myUrl, {
               <div class="btn-group">
               <a href="./details.html?productID=${data._id}"><button
               type="button"
-              class="btn btn-sm btn-outline-secondary"
+              class="btn btn-warning"
             >
-              View
-            </button></a>
-                <button
-                  type="button"
-                  class="btn btn-sm btn-outline-secondary" id="${i}"
-                >
-                  Delete
-                </button>
+              dettagli
+            
               </div>
               
             </div>

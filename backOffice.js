@@ -31,6 +31,6 @@ form.addEventListener("submit", (e) => {
       }
     })
     .then((data) => {
-      console.log(data);
+      alert("Annuncio creato");
     });
 });
