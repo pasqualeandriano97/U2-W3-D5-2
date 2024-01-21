@@ -31,6 +31,6 @@ form.addEventListener("submit", (e) => {
       }
     })
     .then((data) => {
-      alert("Annuncio creato");
+      alert("Annuncio Creato") ? "" : location.reload();
     });
 });

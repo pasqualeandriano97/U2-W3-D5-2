@@ -78,7 +78,7 @@ article.addEventListener("submit", (e) => {
       }
     })
     .then((data) => {
-      alert("Annuncio Modificato");
+      alert("Annuncio Modificato") ? "" : location.reload();
     });
 });
 
@@ -99,6 +99,6 @@ deletebutton.addEventListener("click", (e) => {
       }
     })
     .then((data) => {
-      alert("Annuncio Eliminato");
+      alert("Annuncio eliminato") ? "" : location.reload();
     });
 });
